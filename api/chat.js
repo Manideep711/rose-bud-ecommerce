@@ -11,7 +11,7 @@
  * - Any Node server (Express, etc.): mount this logic as a POST route.
  */
 
-const GEMINI_MODEL = "gemini-2.5-flash-preview-09-2025";
+const GEMINI_MODEL = "gemini-1.5-flash";
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
